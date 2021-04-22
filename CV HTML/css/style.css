@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    box-sizing: border-box;
+}
+html {
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+section img {
+    border-radius: 75px;
+    margin-left: 30px;
+}
+.nom {
+    font-size:32px;
+    margin-top:0;
+}
+.flex {
+    display: flex;
+}
+
+.info-perso {
+    background-color: #01396e;
+    margin: 30px;
+    padding: 20px;
+    margin-right:0;
+}
+.info-parcours {
+    background-color: lightgrey;
+    margin: 30px;
+    padding: 20px;
+    margin-left:0;
+}
+div {
+    padding:10px;
+}
+.info-parcours h2 {
+    border: 1px solid #01396e;
+    background-color: #01396e;
+    color:white;
+    padding:10px;
+}
+.info-perso {
+    color:white;
+}
